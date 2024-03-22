@@ -30,7 +30,7 @@ import Layout from '../components/Layout';
  * Making base name for the website (needed in deployment)
  */
 const router = createBrowserRouter(routes, {
-  basename: '/volos-react',
+  basename: '/',
 });
 
 function App() {
